@@ -1,0 +1,12 @@
+DyalogBuild: 0.2
+ID         : tube, Version=1.0
+Description: tube workspace
+Defaults   : (⎕IO ⎕ML ⎕WX)←1 1 3
+TARGET     : tube.dws
+LX    : notes.describe
+
+FILE  : sources/*.txt, Type=TEXT, NL=cr
+EXEC  : {(⍎⍵⎕NS ⍬).source←⍎⍵}¨⎕NL ¯2
+FILE  : notes/*.txt, Target=#.notes, Type=text, NL=cr
+NS    : notes/*.dyalog, Target=#.notes
+NS    : code/*.dyalog

@@ -1,0 +1,1 @@
+#.ed subway                                       ⍝ Edit subway coding ⍵.source[ed]  places  the  source  array  (⍵.source) into an edit window and removes thecompiled arrays ⍵.(graph labels) in order to trigger re-compilation.See also: →compile← →path← →trip←
