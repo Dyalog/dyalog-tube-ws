@@ -1,9 +1,9 @@
-DyalogBuild: 1.0
-ID         : tube, Version=1.0
-Description: tube workspace
-Defaults   : (⎕IO ⎕ML ⎕WX)←1 1 3
-TARGET     : tube.dws
-LX    : notes.describe
+DYALOGBUILD : 1.0
+ID          : tube, Version=1.0
+DESCRIPTION : tube workspace
+DEFAULTS    : (⎕IO ⎕ML ⎕WX)←1 1 3
+TARGET      : tube.dws
+LX          : notes.describe
 
 DATA  : sources/*.txt, Format=charvec, SetEOL=cr
 EXEC  : {(⍎⍵⎕NS ⍬).source←⍎⍵}¨⎕NL ¯2
