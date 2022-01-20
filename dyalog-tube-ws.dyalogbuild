@@ -6,7 +6,7 @@ TARGET      : tube.dws
 LX          : notes.describe
 
 DATA  : sources/*.txt, Format=charvec, SetEOL=cr
-EXEC  : {(⍎⍵⎕NS ⍬).source←⍎⍵}¨⎕NL ¯2
+EXEC  : {(⍎⍵⎕NS ⍬).source←⍎⍵}¨⎕NL ¯2.1
 DATA  : notes/*.txt, Target=#.notes, Format=charvec, SetEOL=cr
 NS    : notes/*.dyalog, Target=#.notes
 NS    : code/*.dyalog
